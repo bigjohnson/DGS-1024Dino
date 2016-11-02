@@ -20,7 +20,9 @@
 */
 
 // Pin connected to 74HC164 led board new config better
-// with original cable and Arduino Nano
+// with original cable and Arduino Nano.
+// Original cable has a GND wire between signals and has
+// better crosstalk performance, you can decrease the delay!
 #define clockPin5e6 7 // pin 5 DGS-1024D CP5E6
 #define clockPin3e4 9 // pin 9 DGS-1024D CP3E4
 #define clockPin1e2 11 // pin 13 DGS-1024D CP1E2
